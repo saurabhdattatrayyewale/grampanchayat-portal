@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+header .header {
+  background-color: #fff;
+  height: 45px;
+}
+/* header a img{
+	width: 1340px;
+  margin-top: 4px;
+  } */
+.login-page {
+  width: 360px;
+  padding: 5% 0 0;
+  margin: auto;
+}
+.login-page .form .login {
+  margin-top: -31px;
+  margin-bottom: 26px;
+}
+span {
+  color: red;
+  text-align: left;
+  font-size: 14px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 50px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg, #328f8a, #08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+.form .message a {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* .container {
+	position: relative;
+	z-index: 1;
+	max-width: 300px;
+	margin: 0 auto;
+  } */
+
+.message {
+  font-size: 20px;
+}
+
+.form .message :hover {
+  color: 0056b3;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg, #328f8a, #08ac4b);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.footer {
+  background-color: #d6d7a7;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  color: #000 !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  font: inherit;
+  margin-top: 1em;
+  font-size: 1.1em;
+}
